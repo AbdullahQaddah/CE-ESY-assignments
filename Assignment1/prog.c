@@ -61,8 +61,8 @@ int main() {
     CircularBuffer myBuffer;
     initBuffer(&myBuffer);
 
-    char name[15];
-    char lastName[10];
+    char name[50];
+    char lastName[100];
 
     // 1-Input name from standard input
     printf("Enter your name: ");
